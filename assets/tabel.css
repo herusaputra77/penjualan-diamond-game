@@ -1,0 +1,36 @@
+/* @media screen and (max-width: 520px) {
+  table {
+    width: 100%;
+  }
+  thead th.column-primary {
+    width: 100%;
+  }
+  thead th:not(.column-primary) {
+    display: none;
+  }
+  th[scope="row"] {
+    vertical-align: top;
+  }
+  td {
+    display: block;
+    width: auto;
+  }
+  thead th::before {
+    text-transform: uppercase;
+    font-weight: bold;
+    content: attr(data-header);
+  }
+  thead th:first-child span {
+    display: none;
+  }
+  td::before {
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    content: attr(data-header);
+  }
+} */
+.table-container {
+  overflow: auto;
+}
